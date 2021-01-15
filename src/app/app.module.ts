@@ -14,11 +14,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     FormsModule,
-    // NgbModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
     TextMaskModule,
-    // MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
