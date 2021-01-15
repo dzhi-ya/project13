@@ -9,10 +9,10 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class AddformWorkerComponent implements OnInit {
   myWorkerType = MyWorkerType;
-  // name: string;
-  // surname: string;
-  // phone: string;
-  // type = 0;
+  name: string;
+  surname: string;
+  phone: string;
+  type = 0;
 
   addForm = new FormGroup({
     name: new FormControl('', [Validators.required]),
