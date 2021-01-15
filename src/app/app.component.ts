@@ -24,15 +24,6 @@ export class AppComponent {
   type: any;
   modal = false;
 
-  // mask: Array<string | RegExp>;
-
-  // editForm = new FormGroup({
-  //   name: new FormControl(''),
-  //   surname: new FormControl(''),
-  //   phone: new FormControl(''),
-  //   id: new FormControl(''),
-  // });
-
   editForm = new FormGroup({
     name: new FormControl('', [Validators.required]),
     surname: new FormControl('', [Validators.required]),
